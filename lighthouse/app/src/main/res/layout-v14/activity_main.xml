@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#B3E5FC">
+
+    <ImageButton
+        android:id="@+id/shipButton"
+        android:layout_width="180dp"
+        android:layout_height="240dp"
+        android:layout_marginBottom="240dp"
+        android:background="#FD4141"
+        android:contentDescription="TODO"
+        android:onClick="onShipClicked"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ship" />
+
+    <ImageButton
+        android:id="@+id/diaryButton"
+        android:layout_width="180dp"
+        android:layout_height="240dp"
+        android:layout_marginBottom="240dp"
+        android:background="#FF9D13"
+        android:contentDescription="TODO"
+        android:onClick="onDiaryClicked"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/diary" />
+
+    <ImageButton
+        android:id="@+id/compassButton"
+        android:layout_width="180dp"
+        android:layout_height="240dp"
+        android:background="#D0FF13"
+        android:onClick="onCompassClicked"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/compass" />
+
+    <ImageButton
+        android:id="@+id/informationButton"
+        android:layout_width="180dp"
+        android:layout_height="240dp"
+        android:background="#13BFFF"
+        android:onClick="onInformationClicked"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/information" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="44dp"
+        android:layout_height="81dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/image" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="53dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="103dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="#5563c2"
+        android:fontFamily="@font/selecthy"
+        android:onClick="onLoginClicked"
+        android:text="로그인"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

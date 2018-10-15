@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spiner_inter">
+        <item>문과</item>
+        <item>이과</item>
+        <item>예체능</item>
+    </string-array>
+    <string-array name="spiner_inter1">
+        <item>언어</item>
+        <item>법</item>
+        <item>정치</item>
+        <item>경제</item>
+        <item>지리</item>
+        <item>언론</item>
+        <item>외교</item>
+    </string-array>
+    <string-array name="spiner_inter2">
+        <item>수학</item>
+        <item>과학</item>
+        <item>컴퓨터</item>
+        <item>건축</item>
+        <item>자동차</item>
+        <item>항공기</item>
+        <item>로봇</item>
+    </string-array>
+    <string-array name="spiner_inter3">
+        <item>체육</item>
+        <item>음악</item>
+        <item>미술</item>
+        <item>방송</item>
+    </string-array>
+</resources>
