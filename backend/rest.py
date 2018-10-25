@@ -1,13 +1,10 @@
-/* Copyright (C) MakeIN <http://www.makein.kro.kr> */
+# Copyright (C) MakeIN <http://www.makein.kro.kr>
 
-/**
- * @auther MakeIN (hyeokju1313@newsecu.kr)
- * @file backend/rest,py
- * @brief LightHouse backend REST API Code
- * @version 1.0.0
- *
- * GitHub PAGE <https://github.com/Team-Makein/Lighthouse>
- */
+# @auther MakeIN (hyeokju1313@newsecu.kr)
+# @file backend/rest,py
+# @brief LightHouse backend REST API Code
+# @version 1.0.0
+# GitHub PAGE <https://github.com/Team-Makein/Lighthouse>
 
 from flask import Flask
 from flask_restful import Resource, Api, reqparse
