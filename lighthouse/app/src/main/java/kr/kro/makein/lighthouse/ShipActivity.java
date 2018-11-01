@@ -42,61 +42,7 @@ public class ShipActivity extends AppCompatActivity {
         //here
         Log.e("MyApps","Info: Set commit");
             spin1.setAdapter(adspin1);
-            /*
-            Log.e("MyApps","Info: Adapter set finally!");
-            spin1.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-                @Override
-                public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                    if (adspin1.getItem(position).equals("문과")) {
-                        choice_first = "문과";
-                        adspin2 = ArrayAdapter.createFromResource(ShipActivity.this, R.array.spiner_inter1, android.R.layout.simple_spinner_dropdown_item);
-                        adspin2.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-                        spin2.setAdapter(adspin2);
-                        spin2.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
-                            @Override
-                            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                                choice_second = adspin2.getItem(position).toString();
-                            }
-
-                            @Override
-                            public void onNothingSelected(AdapterView<?> parent) {
-                            }
-                        });
-                    } else if (adspin1.getItem(position).equals("이과")) {
-                        choice_first = "이과";
-                        adspin2 = ArrayAdapter.createFromResource(ShipActivity.this, R.array.spiner_inter2, android.R.layout.simple_spinner_dropdown_item);
-                        adspin2.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-                        spin2.setAdapter(adspin2);
-                        spin2.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
-                            @Override
-                            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                                choice_second = adspin2.getItem(position).toString();
-                            }
-
-                            @Override
-                            public void onNothingSelected(AdapterView<?> parent) {
-
-                            }
-                        });
-                    } else if (adspin1.getItem(position).equals("예체능")) {
-                        choice_first = "예체능";
-                        adspin2 = ArrayAdapter.createFromResource(ShipActivity.this, R.array.spiner_inter3, android.R.layout.simple_spinner_dropdown_item);
-                        adspin2.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-                        spin2.setAdapter(adspin2);
-                        spin2.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
-                            @Override
-                            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                                choice_second = adspin2.getItem(position).toString();
-                            }
-
-                            @Override
-                            public void onNothingSelected(AdapterView<?> parent) {
-                            }
-                        });
-                    }
-                }
-            });
-*/
+        
         btn_refresh.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
