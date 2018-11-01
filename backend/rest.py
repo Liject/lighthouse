@@ -142,7 +142,7 @@ class View(Resource):
                 json_data.append(dict(zip(row_headers,result)))
 
             if len(data) is 0:
-                return {'StatusCode': '40404', 'Message': 'No your post on DB'}
+                return {'StatusCode': '404', 'Message': 'No your post on DB'}
             else:
                 return {'StatusCode': '200', 'Message': str(data)}
 
