@@ -1,6 +1,6 @@
 # Copyright (C) MakeIN <http://www.makein.kro.kr>
 
-# @auther MakeIN (hyeokju1313@newsecu.kr)
+# @auther MakeIN (hyeokju1313@naver.com, liject.member@gmail.com)
 # @file backend/rest,py
 # @brief LightHouse backend REST API Code
 # @version 1.0.0
